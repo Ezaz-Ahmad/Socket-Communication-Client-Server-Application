@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Client {
     public static void main(String[] args) {
         String hostname = args.length > 0 ? args[0] : "localhost";
-        int port = args.length > 1 ? Integer.parseInt(args[1]) : 12345;
+        int port = args.length > 1 ? Integer.parseInt(args[1]) : 4500;
 
         try (Socket socket = new Socket(hostname, port);
              PrintWriter out = new PrintWriter(socket.getOutputStream(), true);

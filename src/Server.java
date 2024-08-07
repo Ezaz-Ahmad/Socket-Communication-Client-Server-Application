@@ -4,12 +4,12 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class Server {
-    private static final Map<String, String> countryCapitalMap = new ConcurrentHashMap<>();
+    private static final Map<String, String> countryCapMap = new ConcurrentHashMap<>();
     private static final Random random = new Random();
     private static int stuNumber = 3412618;
 
     public static void main(String[] args) {
-        int port = args.length > 0 ? Integer.parseInt(args[0]) : 3412618;
+        int port = args.length > 0 ? Integer.parseInt(args[0]) : 4500;
         loadCountryCapitalData();
 
         try (ServerSocket serverSocket = new ServerSocket(port)) {
@@ -29,7 +29,7 @@ public class Server {
             while ((line = br.readLine()) != null) {
                 String[] data = line.split(",");
                 if (data.length == 2) {
-                    countryCapitalMap.put(data[0].trim(), data[1].trim());
+                    countryCapMap.put(data[0].trim(), data[1].trim());
                 }
             }
         } catch (IOException e) {
@@ -71,18 +71,19 @@ public class Server {
                             break;
                     }
                 }
+
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
 
         private String getCapitalCity(String country) {
-            String capital = countryCapitalMap.get(country);
+            String capital = countryCapMap.get(country);
             return capital != null ? capital : "ERROR: Country not found";
         }
 
         private String getPopulation(String country) {
-            if (!countryCapitalMap.containsKey(country)) {
+            if (!countryCapMap.containsKey(country)) {
                 return "ERROR: Country not found";
             }
             int randomFactor = random.nextInt(10) + 1;
@@ -90,10 +91,10 @@ public class Server {
         }
 
         private String addCountryCapital(String country, String capital) {
-            if (countryCapitalMap.containsKey(country)) {
+            if (countryCapMap.containsKey(country)) {
                 return "ERROR: Country already exists";
             }
-            countryCapitalMap.put(country, capital);
+            countryCapMap.put(country, capital);
             return "SUCCESS: Country added";
         }
     }
