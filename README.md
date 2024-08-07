@@ -1,8 +1,7 @@
-#Socket Communication Client and Server Application
-Overview
 This repository contains a Java-based project demonstrating network communication using sockets, featuring a server and client application.
 
-Technologies Used
+Technologies Used:
+
 Java
 TCP Sockets
 Concepts Covered
@@ -10,6 +9,7 @@ Network communication
 Client-server architecture
 Basic error handling
 Server Program
+
 The server program provides the following functionalities:
 
 Capital City Information: Given a country name, the server responds with the capital city.
