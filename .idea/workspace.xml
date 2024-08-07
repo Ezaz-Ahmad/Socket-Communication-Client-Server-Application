@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06cb3284-da5b-4a4a-ac34-036a5fd706a3" name="Changes" comment="added .csv file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+    <list default="true" id="06cb3284-da5b-4a4a-ac34-036a5fd706a3" name="Changes" comment="imoproved fuctionality">
       <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/countries_capitals.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/capitals.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723023248868</updated>
       <workItem from="1723023249922" duration="17000" />
-      <workItem from="1723023297270" duration="6180000" />
+      <workItem from="1723023297270" duration="8854000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -118,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723026733249</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="imoproved fuctionality">
+      <option name="closed" value="true" />
+      <created>1723030373098</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723030373098</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +133,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="added the structure and of the code" />
     <MESSAGE value="added .csv file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added .csv file" />
+    <MESSAGE value="imoproved fuctionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="imoproved fuctionality" />
   </component>
 </project>
