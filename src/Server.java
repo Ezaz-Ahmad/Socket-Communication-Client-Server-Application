@@ -6,10 +6,10 @@ import java.util.concurrent.ConcurrentHashMap;
 public class Server {
     private static final Map<String, String> countryCapitalMap = new ConcurrentHashMap<>();
     private static final Random random = new Random();
-    private static int studentNumber = 3412618;
+    private static int stuNumber = 3412618;
 
     public static void main(String[] args) {
-        int port = args.length > 0 ? Integer.parseInt(args[0]) : 12345;
+        int port = args.length > 0 ? Integer.parseInt(args[0]) : 3412618;
         loadCountryCapitalData();
 
         try (ServerSocket serverSocket = new ServerSocket(port)) {
@@ -24,7 +24,7 @@ public class Server {
     }
 
     private static void loadCountryCapitalData() {
-        try (BufferedReader br = new BufferedReader(new FileReader("countries_capitals.csv"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("src/capitals.csv"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] data = line.split(",");
@@ -56,13 +56,13 @@ public class Server {
                     String parameter = parts.length > 1 ? parts[1] : "";
 
                     switch (command) {
-                        case "GET_CAPITAL":
+                        case "Capital":
                             out.println(getCapitalCity(parameter));
                             break;
-                        case "GET_POPULATION":
+                        case "Population":
                             out.println(getPopulation(parameter));
                             break;
-                        case "ADD_COUNTRY":
+                        case "Add Country":
                             String[] newCountryData = parameter.split(",", 2);
                             out.println(addCountryCapital(newCountryData[0], newCountryData[1]));
                             break;
@@ -86,7 +86,7 @@ public class Server {
                 return "ERROR: Country not found";
             }
             int randomFactor = random.nextInt(10) + 1;
-            return String.valueOf(randomFactor * studentNumber);
+            return String.valueOf(randomFactor * stuNumber);
         }
 
         private String addCountryCapital(String country, String capital) {

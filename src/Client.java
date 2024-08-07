@@ -14,10 +14,10 @@ public class Client {
             Scanner scanner = new Scanner(System.in);
             String command;
             while (true) {
-                System.out.println("Enter command (GET_CAPITAL, GET_POPULATION, ADD_COUNTRY, EXIT):");
-                command = scanner.nextLine().toUpperCase();
+                System.out.println("Please Enter command (Capital, Population, Add Country, EXIT):");
+                command = scanner.nextLine();
 
-                if (command.equals("EXIT")) {
+                if (command.equalsIgnoreCase("EXIT")) {
                     break;
                 }
 
