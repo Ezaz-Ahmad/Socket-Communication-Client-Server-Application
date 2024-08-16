@@ -14,14 +14,14 @@ public class Client {
             Scanner scanner = new Scanner(System.in);
             String command;
             while (true) {
-                System.out.println("Please Enter command (Capital, Population, Add Country, EXIT):");
+                System.out.println("Please choose (Capital, Population, Add Country, EXIT):");
                 command = scanner.nextLine();
 
                 if (command.equalsIgnoreCase("EXIT")) {
                     break;
                 }
 
-                System.out.println("Enter parameter:");
+                System.out.println("Please Enter parameter:");
                 String parameter = scanner.nextLine();
 
                 out.println(command + ":" + parameter);

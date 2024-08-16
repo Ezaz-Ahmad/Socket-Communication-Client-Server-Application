@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06cb3284-da5b-4a4a-ac34-036a5fd706a3" name="Changes" comment="imoproved fuctionality">
+    <list default="true" id="06cb3284-da5b-4a4a-ac34-036a5fd706a3" name="Changes" comment="Changed the Port">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +41,17 @@
     "Application.Client.executor": "Run",
     "Application.Server.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -65,7 +72,13 @@
       <option name="presentableId" value="Default" />
       <updated>1723023248868</updated>
       <workItem from="1723023249922" duration="17000" />
-      <workItem from="1723023297270" duration="8854000" />
+      <workItem from="1723023297270" duration="9719000" />
+      <workItem from="1723033314741" duration="56000" />
+      <workItem from="1723033447271" duration="819000" />
+      <workItem from="1723527978713" duration="351000" />
+      <workItem from="1723528350646" duration="1359000" />
+      <workItem from="1723529732222" duration="78000" />
+      <workItem from="1723782805085" duration="2341000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -123,17 +136,45 @@
       <option name="project" value="LOCAL" />
       <updated>1723030373098</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Changed the Port">
+      <option name="closed" value="true" />
+      <created>1723032543138</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723032543138</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Changed the Port">
+      <option name="closed" value="true" />
+      <created>1723033166650</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723033166650</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="added the structure and of the code" />
     <MESSAGE value="added .csv file" />
     <MESSAGE value="imoproved fuctionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="imoproved fuctionality" />
+    <MESSAGE value="Changed the Port" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the Port" />
   </component>
 </project>
