@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06cb3284-da5b-4a4a-ac34-036a5fd706a3" name="Changes" comment="imoproved fuctionality">
+    <list default="true" id="06cb3284-da5b-4a4a-ac34-036a5fd706a3" name="Changes" comment="Changed the Port">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Ezaz-Ahmad"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Ezaz-Ahmad/Socket-Communication-Client-Server-Application.git",
+    "accountId": "ceeda327-18f8-4053-bb68-e6dd6cbc31d1"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -38,21 +52,26 @@
     "Application.Client.executor": "Run",
     "Application.Server.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "S:/UON/Network and Distributed Computing/Assignment 01",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
       </set>
     </attachedChunks>
   </component>
@@ -65,7 +84,15 @@
       <option name="presentableId" value="Default" />
       <updated>1723023248868</updated>
       <workItem from="1723023249922" duration="17000" />
-      <workItem from="1723023297270" duration="8854000" />
+      <workItem from="1723023297270" duration="9719000" />
+      <workItem from="1723033314741" duration="56000" />
+      <workItem from="1723033447271" duration="819000" />
+      <workItem from="1723527978713" duration="351000" />
+      <workItem from="1723528350646" duration="1359000" />
+      <workItem from="1723529732222" duration="78000" />
+      <workItem from="1723782805085" duration="3901000" />
+      <workItem from="1724249747326" duration="13000" />
+      <workItem from="1725539200066" duration="6361000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -123,17 +150,53 @@
       <option name="project" value="LOCAL" />
       <updated>1723030373098</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Changed the Port">
+      <option name="closed" value="true" />
+      <created>1723032543138</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723032543138</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Changed the Port">
+      <option name="closed" value="true" />
+      <created>1723033166650</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723033166650</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Changed the Port">
+      <option name="closed" value="true" />
+      <created>1723785621153</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723785621153</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="added the structure and of the code" />
     <MESSAGE value="added .csv file" />
     <MESSAGE value="imoproved fuctionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="imoproved fuctionality" />
+    <MESSAGE value="Changed the Port" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the Port" />
   </component>
 </project>

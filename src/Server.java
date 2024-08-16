@@ -10,7 +10,7 @@ public class Server {
 
     public static void main(String[] args) {
         int port = args.length > 0 ? Integer.parseInt(args[0]) : 4500;
-        loadCountryCapitalData();
+        load_Country_Cap_D();
 
         try (ServerSocket serverSocket = new ServerSocket(port)) {
             System.out.println("Server is listening on port " + port);
@@ -23,8 +23,8 @@ public class Server {
         }
     }
 
-    private static void loadCountryCapitalData() {
-        try (BufferedReader br = new BufferedReader(new FileReader("src/capitals.csv"))) {
+    private static void load_Country_Cap_D() {
+        try (BufferedReader br = new BufferedReader(new FileReader("capitals.csv"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] data = line.split(",");
@@ -91,11 +91,18 @@ public class Server {
         }
 
         private String addCountryCapital(String country, String capital) {
-            if (countryCapMap.containsKey(country)) {
-                return "ERROR: Country already exists";
+            // Check if both country and capital are not empty
+            if (country == null || country.trim().isEmpty() || capital == null || capital.trim().isEmpty()) {
+                return "ERROR: Invalid input. Both country and capital must be provided.";
             }
-            countryCapMap.put(country, capital);
-            return "SUCCESS: Country added";
+            // Check if the country already exists in the map
+            if (countryCapMap.containsKey(country.trim())) {
+                return "ERROR: Country already exists.";
+            }
+            // Add the new country and capital to the map
+            countryCapMap.put(country.trim(), capital.trim());
+            return "SUCCESS: Country added.";
         }
+
     }
 }
